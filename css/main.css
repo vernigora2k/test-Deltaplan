@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.header {
+    height: 110px;
+}
+
+.header__main-menu {
+    width: 740px;
+    justify-content: space-between;
+}
+
+.header__main-menu-button {
+    outline: none;
+    border: none;
+    height: 80px;
+    width: 125px;
+    background-color: yellow;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.burger-menu {
+    width: 25px;
+    height: 25px;
+}
+
+.header__logo {
+    width: 200px;
+    height: 60px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: yellow;
+    align-self: center;
+}
+
+.header__portfolio {
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 26, 58);
+    color: rgb(92, 148, 221);
+}
+
+.main__services {
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 26, 58);
+    color: rgb(92, 148, 221);
+}
+
+.header__services-menu {
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 26, 58);
+    color: rgb(92, 148, 221);
+}
+
+.header__button-contacts {
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 26, 58);
+    color: rgb(92, 148, 221);
+}
+
+.header__contacts {
+    width: 640px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__some-button {
+    width: 125px;
+    height: 40px;
+    background-color: cadetblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__email-button {
+    width: 165px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(1, 26, 58);
+    color: rgb(92, 148, 221);
+    justify-content: center;
+    align-items: center;
+}
+
+.header__phones {
+    width: 155px;
+    height: 75px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phones {
+    flex-direction: column;
+    background-color: mediumturquoise;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.phones__title {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.header__ask-question {
+    width: 160px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.header__ask-question>span {
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    position: relative;
+}
+
+.main__slider {
+    background-color: tomato;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.main__side-panel {
+    position: absolute;
+    height: 350px;
+    width: 68px;
+    top: 150px;
+    right: 0;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.side-panel__row-1 {
+    height: 90px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-panel__row-2 {
+    flex-direction: column;
+    height: 130px;
+    align-items: center;
+}
+
+.image-social-container {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-social {
+    width: 25px;
+    height: 25px;
+}
+
+.image-mail-large {
+    width: 35px;
+}
