@@ -110,6 +110,12 @@ body {
     align-items: center;
 }
 
+.image-mail-small {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
 .header__email-button {
     width: 165px;
     height: 45px;
